@@ -97,7 +97,7 @@ body, html {
 
 .hero h1 {
   font-size: 1rem;
-  color: 1E4252;
+  color: #1E4252;
   text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
 }
 
@@ -354,7 +354,7 @@ button:hover {
 }
 
 #profile-view, 
-#profile view * {
+#profile-view * {
   color: #1E4252
 }
 
