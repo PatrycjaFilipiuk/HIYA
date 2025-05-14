@@ -162,7 +162,109 @@ body, html {
   }
 }
 
+/*Aleksandra CSS CODE*/
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background: white;
+  border-bottom: 2px solid #ccc;
+}
 
+.logo {
+  font-weight: bold;
+}
+
+.menu-icon {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+#side-menu {
+  position: fixed;
+  top: 0;
+  right: -250px;
+  width: 250px;
+  height: 100%;
+  background: white;
+  box-shadow: -2px 0 5px rgba(0,0,0,0.2);
+  transition: right 0.3s ease-in-out;
+  padding-top: 60px;
+  z-index: 999;
+}
+
+#side-menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+#side-menu li {
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+#side-menu a {
+  text-decoration: none;
+  color: #83ddf3;
+}
+
+.search-bar {
+  width: 90%;
+  margin: 1rem auto;
+  display: block;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+.doctor-card {
+  background: white;
+  margin: 1rem;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.doctor-card img {
+  width: 100%;
+  height: auto;
+}
+
+.info {
+  padding: 1rem;
+}
+
+.stars {
+  color: #0077cc;
+  margin: 0.5rem 0;
+}
+
+.buttons button {
+  margin: 5px;
+  padding: 8px 12px;
+  background: #cce5ff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  background: white;
+  width: 100%;
+  max-width: 430px;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+  border-top: 2px solid #ccc;
+}
+
+.footer-icon img {
+width: 40px;
+}
 
 
 
