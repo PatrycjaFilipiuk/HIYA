@@ -48,6 +48,7 @@ fadeEls.forEach(el => observer.observe(el));
       $("#darkMode").click(function() {
         $("body").toggleClass("bodyDark")
         $("#profile-view").toggleClass("profileDark")
+        console.log("working")
       })
   });
   

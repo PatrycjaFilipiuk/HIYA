@@ -349,11 +349,11 @@ button:hover {
 }
 
 .headingDark {
-    color: teal;
+    color: #1E4252;
 
 }
 
-#profile-view, 
+ #profile-view, 
 #profile view * {
   color: #1E4252
 }
@@ -361,5 +361,5 @@ button:hover {
 #edit-profile-view, 
 #edit-profile-view * {
   color: #1E4252;
-}
+} 
 
