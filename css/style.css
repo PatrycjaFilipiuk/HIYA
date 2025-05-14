@@ -26,7 +26,7 @@ body, html {
 }
 
 .logo {
-  height: 100px;
+  height: 120px;
 }
 
 /* Hamburger */
@@ -97,7 +97,7 @@ body, html {
 
 .hero h1 {
   font-size: 1rem;
-  color: 1E4252;
+  color: #1E4252;
   text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
 }
 
@@ -169,10 +169,6 @@ header {
   padding: 1rem;
   background: white;
   border-bottom: 2px solid #ccc;
-}
-
-.logo {
-  font-weight: bold;
 }
 
 .menu-icon {
@@ -353,8 +349,8 @@ button:hover {
 
 }
 
- #profile-view, 
-#profile view * {
+#profile-view, 
+#profile-view * {
   color: #1E4252
 }
 
