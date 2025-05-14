@@ -48,7 +48,7 @@
     <div class="section">
       <h3>Preferences</h3>
       <p><input type="checkbox" checked> Notifications</p>
-      <p><input type="checkbox"> Dark Mode</p>
+      <p><input id="darkMode" type="checkbox"> Dark Mode</p>
     </div>
 
     <div class="section">
@@ -86,6 +86,12 @@
           $('#edit-profile-view').hide();
           $('#profile-view').show();
       });
+
+      $("#darkMode").click(function() {
+        $("body").toggleClass("bodyDark")
+        $("#profile-view").toggleClass("profileDark")
+        $("h1", "h2" ).toggleClass("headingDark")
+      })
   });
 </script>
 
