@@ -1,3 +1,6 @@
+// Patrycja JS CODE //
+
+
 const hamburger = document.getElementById('hamburger');
 const sideMenu = document.getElementById('sideMenu');
 const closeMenu = document.getElementById('closeMenu');
