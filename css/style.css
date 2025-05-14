@@ -26,7 +26,7 @@ body, html {
 }
 
 .logo {
-  height: 120px;
+  height: 90px;
 }
 
 /* Hamburger */
@@ -86,7 +86,7 @@ body, html {
 
 /* Hero section */
 .hero {
-  height: 100vh;
+  height: 75vh;
   background: url(../img/background_front.jpg) no-repeat center center/cover;
   display: flex;
   justify-content: center;
@@ -98,7 +98,7 @@ body, html {
 .hero h1 {
   font-size: 1rem;
   color: #1E4252;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+  background-color: #94CEDA;
 }
 
 .hero h1 span {
@@ -123,11 +123,13 @@ body, html {
 .about h2 {
   font-size: 1.5rem;
   margin-bottom: 1.5rem;
+  margin-top: -150px;
+  color: #0B8FAC;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
 .hero img {
-  max-width: 100%;
+  max-width: 70%;
   height: auto;
   margin: 1.5rem 0;
 }
