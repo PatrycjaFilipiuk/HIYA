@@ -26,9 +26,32 @@ const observer = new IntersectionObserver((entries) => {
 }, {
   threshold: 0.1 // 10% view
 });
+
+/* jude javascript */
  
 fadeEls.forEach(el => observer.observe(el));
 
+  $(document).ready(function() {
+      $('#profile-view').show();
+      $('#edit-profile-view').hide();
+
+      $('#edit-profile-btn').click(function(){
+          $('#profile-view').hide();
+          $('#edit-profile-view').show();
+      });
+
+      $('#save-changes-btn').click(function(){
+          $('#edit-profile-view').hide();
+          $('#profile-view').show();
+      });
+
+      $("#darkMode").click(function() {
+        $("body").toggleClass("bodyDark")
+        $("#profile-view").toggleClass("profileDark")
+        console.log("working")
+      })
+  });
+  
 
 // Aleksandras code /
 function toggleMenu() {

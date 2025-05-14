@@ -7,7 +7,7 @@
 body, html {
   font-family: 'Arial', sans-serif;
   height: 100%;
-  background-color: #f6f8fa;
+  background-color: #ffffff;
   overflow-x: hidden;
   margin: 0;
 }
@@ -26,7 +26,7 @@ body, html {
 }
 
 .logo {
-  height: 100px;
+  height: 120px;
 }
 
 /* Hamburger */
@@ -97,7 +97,7 @@ body, html {
 
 .hero h1 {
   font-size: 1rem;
-  color: 1E4252;
+  color: #1E4252;
   text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
 }
 
@@ -171,10 +171,6 @@ header {
   border-bottom: 2px solid #ccc;
 }
 
-.logo {
-  font-weight: bold;
-}
-
 .menu-icon {
   font-size: 1.5rem;
   cursor: pointer;
@@ -234,17 +230,18 @@ header {
 
 .info {
   padding: 1rem;
+  color: #1E4252;
 }
 
 .stars {
-  color: #0077cc;
+  color: #0B8FAC;
   margin: 0.5rem 0;
 }
 
 .buttons button {
   margin: 5px;
   padding: 8px 12px;
-  background: #cce5ff;
+  background: #94CEDA;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -269,6 +266,8 @@ width: 40px;
 
 
 /* JUDES CSS CODE*/
+/*color: #1E4252;*/
+
 
 .bodyDark {
   background-color: black;
@@ -307,7 +306,7 @@ h2 {
 .section h3 {
   margin-top: 0;
   font-size: 1.1rem;
-  color: #333;
+  color: #1E4252;
 }
 
 .form-group {
@@ -346,7 +345,17 @@ button:hover {
 }
 
 .headingDark {
-    color: teal;
+    color: #1E4252;
 
 }
+
+#profile-view, 
+#profile-view * {
+  color: #1E4252
+}
+
+#edit-profile-view, 
+#edit-profile-view * {
+  color: #1E4252;
+} 
 

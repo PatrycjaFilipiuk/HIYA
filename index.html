@@ -27,7 +27,7 @@
     <li><a href="#">Home</a></li>
     <li><a href="#">Search</a></li>
     <li><a href="#">Appointments</a></li>
-    <li><a href="#">Profile</a></li>
+    <li><a href="#profile-view">Profile</a></li>
     <li><a href="#">Support</a></li>
   </ul>
 </nav>
@@ -132,7 +132,7 @@
   <div id="profile-view" class="container">
     <div class="header">
   
-      <h2>Jude Addison</h2>
+      <h2>Hello Jude Addison</h2>
     </div>
     
     <div class="section">
@@ -174,27 +174,6 @@
     <button id="save-changes-btn">Apply Changes</button>
   </div>
 
-<script>
-  $(document).ready(function() {
-      $('#profile-view').show();
-      $('#edit-profile-view').hide();
-
-      $('#edit-profile-btn').click(function(){
-          $('#profile-view').hide();
-          $('#edit-profile-view').show();
-      });
-
-      $('#save-changes-btn').click(function(){
-          $('#edit-profile-view').hide();
-          $('#profile-view').show();
-      });
-
-      $("#darkMode").click(function() {
-        $("body").toggleClass("bodyDark")
-        $("#profile-view").toggleClass("profileDark")
-      })
-  });
-</script>
 
 
 
