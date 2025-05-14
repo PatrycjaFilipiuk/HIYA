@@ -7,7 +7,7 @@
 body, html {
   font-family: 'Arial', sans-serif;
   height: 100%;
-  background-color: #f6f8fa;
+  background-color: #ffffff;
   overflow-x: hidden;
   margin: 0;
 }
@@ -234,17 +234,18 @@ header {
 
 .info {
   padding: 1rem;
+  color: #1E4252;
 }
 
 .stars {
-  color: #0077cc;
+  color: #0B8FAC;
   margin: 0.5rem 0;
 }
 
 .buttons button {
   margin: 5px;
   padding: 8px 12px;
-  background: #cce5ff;
+  background: #94CEDA;
   border: none;
   border-radius: 5px;
   cursor: pointer;
