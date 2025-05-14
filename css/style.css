@@ -174,12 +174,15 @@ body, html {
 /* JUDES CSS CODE*/
 
 
-
 body {
   font-family: Arial, sans-serif;
   background-color: #f6f8fa;
   margin: 0;
   padding: 20px;
+}
+
+.bodyDark {
+  background-color: black;
 }
 
 .container {
@@ -193,13 +196,6 @@ body {
 
 .header {
   text-align: center;
-}
-
-.avatar {
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-  margin-bottom: 10px;
 }
 
 h2 {
@@ -249,4 +245,13 @@ button {
 
 button:hover {
   background-color: #007caa;
+}
+
+.profileDark {
+  background-color: gray;
+}
+
+.headingDark {
+    color: teal;
+
 }
