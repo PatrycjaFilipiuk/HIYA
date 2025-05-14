@@ -1,0 +1,363 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  font-family: 'Arial', sans-serif;
+  height: 100%;
+  background-color: #ffffff;
+  overflow-x: hidden;
+  margin: 0;
+}
+
+/* Header */
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+  background-color: white;
+  border-bottom: 3px solid #0B8FAC;
+}
+
+.logo {
+  height: 90px;
+}
+
+/* Hamburger */
+.hamburger {
+  width: 30px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.hamburger span {
+  height: 2px;
+  background: #0B8FAC;
+  width: 100%;
+  display: block;
+}
+
+/* Side Menu */
+.side-menu {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 70%;
+  height: 100%;
+  background: white;
+  box-shadow: -2px 0 5px rgba(0,0,0,0.3);
+  transition: right 0.3s ease-in-out;
+  padding: 2rem 1rem;
+  z-index: 20;
+}
+  .side-menu-header {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 2rem;
+    }
+    
+    .menu-logo {
+      height: 80px;
+      cursor: pointer;
+    }
+
+
+.side-menu ul {
+  list-style: none;
+}
+
+.side-menu li {
+  margin-bottom: 1.5rem;
+}
+
+.side-menu a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #0B8FAC;
+}
+
+/* Hero section */
+.hero {
+  height: 75vh;
+  background: url(../img/background_front.jpg) no-repeat center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+}
+
+.hero h1 {
+  font-size: 1rem;
+  color: #1E4252;
+  background-color: #94CEDA;
+}
+
+.hero h1 span {
+  font-size: 2.2rem;
+  display: block;
+}
+
+/* Active menu */
+.side-menu.open {
+  right: 0;
+}
+
+/* Who are we? */
+.about {
+  background-color: #ffffff;
+  color: #1E4252;
+  padding: 2rem 1.5rem;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+.about h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  margin-top: -150px;
+  color: #0B8FAC;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.hero img {
+  max-width: 70%;
+  height: auto;
+  margin: 1.5rem 0;
+}
+.about img {
+  max-width: 100%;
+  height: auto;
+  margin: 1.5rem 0;
+}
+
+.about p {
+  font-size: 1rem;
+  line-height: 1.6;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Responsive */
+@media screen and (min-width: 768px) {
+  .hero h1 {
+    font-size: 3rem;
+  }
+}
+
+/*Aleksandra CSS CODE*/
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background: white;
+  border-bottom: 2px solid #ccc;
+}
+
+.menu-icon {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+#side-menu {
+  position: fixed;
+  top: 0;
+  right: -250px;
+  width: 250px;
+  height: 100%;
+  background: white;
+  box-shadow: -2px 0 5px rgba(0,0,0,0.2);
+  transition: right 0.3s ease-in-out;
+  padding-top: 60px;
+  z-index: 999;
+}
+
+#side-menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+#side-menu li {
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+#side-menu a {
+  text-decoration: none;
+  color: #83ddf3;
+}
+
+.search-bar {
+  width: 90%;
+  margin: 1rem auto;
+  display: block;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+.doctor-card {
+  background: white;
+  margin: 1rem;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.doctor-card img {
+  width: 100%;
+  height: auto;
+}
+
+.info {
+  padding: 1rem;
+  color: #1E4252;
+}
+
+.stars {
+  color: #0B8FAC;
+  margin: 0.5rem 0;
+}
+
+.buttons button {
+  margin: 5px;
+  padding: 8px 12px;
+  background: #94CEDA;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  background: white;
+  width: 100%;
+  max-width: 430px;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+  border-top: 2px solid #ccc;
+}
+
+.footer-icon img {
+width: 60px;
+}
+
+
+
+/* JUDES CSS CODE*/
+/*color: #1E4252;*/
+
+
+.bodyDark {
+  background-color: black;
+}
+
+
+@media screen and (max-width: 768px)  {
+
+.container {
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 400px;
+  margin-bottom: 100px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+}
+
+.header {
+  text-align: center;
+}
+
+h2 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.section {
+  margin-top: 20px;
+  background-color: #f1f3f6;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.section h3 {
+  margin-top: 0;
+  font-size: 1.1rem;
+  color: #1E4252;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #009bcf;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #007caa;
+}
+
+.profileDark {
+  background-color: gray;
+}
+
+.headingDark {
+    color: #1E4252;
+
+}
+
+#profile-view, 
+#profile-view * {
+  color: #1E4252
+}
+
+#edit-profile-view, 
+#edit-profile-view * {
+  color: #1E4252;
+} 
+
