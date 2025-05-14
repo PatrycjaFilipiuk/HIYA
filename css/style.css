@@ -1,3 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  font-family: 'Arial', sans-serif;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+/* Header */
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+  background-color: white;
+  border-bottom: 3px solid #0B8FAC;
+}
+
+.logo {
+  height: 100px;
+}
+
+/* Hamburger */
+.hamburger {
+  width: 30px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.hamburger span {
+  height: 2px;
+  background: #0B8FAC;
+  width: 100%;
+  display: block;
+}
+
+/* Side Menu */
+.side-menu {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 70%;
+  height: 100%;
+  background: white;
+  box-shadow: -2px 0 5px rgba(0,0,0,0.3);
+  transition: right 0.3s ease-in-out;
+  padding: 2rem 1rem;
+  z-index: 20;
+}
+  .side-menu-header {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 2rem;
+    }
+    
+    .menu-logo {
+      height: 80px;
+      cursor: pointer;
+    }
+
+
+.side-menu ul {
+  list-style: none;
+}
+
+.side-menu li {
+  margin-bottom: 1.5rem;
+}
+
+.side-menu a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #0B8FAC;
+}
+
+/* Hero section */
+.hero {
+  height: 100vh;
+  background: url(../img/background_front.jpg) no-repeat center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+}
+
+.hero h1 {
+  font-size: 1rem;
+  color: 1E4252;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+}
+
+.hero h1 span {
+  font-size: 2.2rem;
+  display: block;
+}
+
+/* Active menu */
+.side-menu.open {
+  right: 0;
+}
+
+/* Who are we? */
+.about {
+  background-color: #ffffff;
+  color: #1E4252;
+  padding: 2rem 1.5rem;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+.about h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.hero img {
+  max-width: 100%;
+  height: auto;
+  margin: 1.5rem 0;
+}
+.about img {
+  max-width: 100%;
+  height: auto;
+  margin: 1.5rem 0;
+}
+
+.about p {
+  font-size: 1rem;
+  line-height: 1.6;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Responsive */
+@media screen and (min-width: 768px) {
+  .hero h1 {
+    font-size: 3rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /* JUDES CSS CODE*/
 
 
