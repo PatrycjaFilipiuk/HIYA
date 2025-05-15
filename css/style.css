@@ -361,3 +361,116 @@ button:hover {
   color: #1E4252;
 } 
 
+/* Kierons Css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.big-button {
+  font-weight: 600;
+  font-size: 20px;
+  padding: 40px 80px;
+  background-color: #D9D9D9;
+  color: #0B8FAC;
+  border: none;
+  border-radius: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+
+.big-button:hover {
+  background-color: #2980b9;
+}
+
+.hidden {
+  display: none;
+}
+
+.warning-text {
+  font-size: 22px;
+  color: #7BC1B7;
+  margin-bottom: 20px;
+}
+
+.confirm-btn {
+  font-size: 22px;
+  padding: 15px 40px;
+  background-color: #1E4252;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.confirm-btn:hover {
+  background-color: #94CEDA;
+}
+
+.confirmed-text {
+  font-size: 24px;
+  color: #27ae60;
+  margin-bottom: 30px;
+}
+
+.back-btn {
+  font-size: 20px;
+  padding: 12px 40px;
+  background-color: #95a5a6;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.back-btn:hover {
+  background-color: #7f8c8d;
+}
+
+/* Reminder section */
+
+.reminder-box {
+  width: 400px;
+  margin: 40px auto;
+  padding: 30px 20px;
+  border: 2px solid #0B8FAC;
+  border-radius: 12px;
+  background-color: #e6f7fb;
+  box-shadow: 0 4px 8px rgba(11, 143, 172, 0.2);
+  text-align: center;
+}
+
+.reminder-box p {
+  font-size: 20px;
+  color: #333;
+  font-weight: 500;
+  margin: 0 0 12px 0;
+  padding: 10px;
+  border: 1px solid #ccc;      
+  border-radius: 6px;
+  background-color: #ffffff;
+}
+
+
+.reminder-box h2 {
+  color: #0B8FAC;
+  font-size: 28px;
+  margin-bottom: 15px;
+  font-weight: 700;
+  position: sticky;   
+  top: 0;
+  background-color: #e6f7fb;
+  padding-bottom: 10px;
+  z-index: 1;
+}
+
+.reminder-box p {
+  font-size: 20px;
+  color: #333;
+  font-weight: 500;
+  margin: 0 0 10px 0;
+}

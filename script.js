@@ -65,3 +65,22 @@ function toggleMenu() {
     menu.style.right = "0px";
   }
 }
+
+// Kierons code //
+$(document).ready(function() {
+  $('#bigButton').click(function() {
+    $('#initialView').hide();
+    $('#warningView').show();
+  });
+
+  $('#confirmBtn').click(function() {
+    $('#warningView').hide();
+    $('#confirmedView').show();
+  });
+
+  $('#backBtn').click(function() {
+    $('#confirmedView').fadeOut(500, function() {
+      $('#initialView').fadeIn(500);
+    });
+  });
+});
