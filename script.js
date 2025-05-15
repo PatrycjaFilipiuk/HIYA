@@ -67,6 +67,7 @@ function toggleMenu() {
 }
 
 // Kierons code //
+//Button
 $(document).ready(function() {
   $('#bigButton').click(function() {
     $('#initialView').hide();
@@ -84,3 +85,5 @@ $(document).ready(function() {
     });
   });
 });
+
+
