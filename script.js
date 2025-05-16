@@ -87,3 +87,31 @@ $(document).ready(function() {
 });
 
 
+
+
+
+$(document).ready(function () {
+  
+  $('#search, #appointments, #profile').hide();
+
+  $('.nav-link').on('click', function (e) {
+    e.preventDefault();
+
+    const target = $(this).attr('href'); 
+
+    
+    $('#home, #search, #appointments, #profile').not(target).fadeOut(300, function () {
+      
+      $(target).fadeIn(300);
+    });
+  });
+});
+
+
+
+
+
+
+
+
+
