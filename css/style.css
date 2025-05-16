@@ -268,7 +268,7 @@ width: 60px;
 
 
 /* JUDES CSS CODE*/
-
+/*color: #1E4252;*/
 
 
 .bodyDark {
@@ -283,16 +283,8 @@ width: 60px;
   border-radius: 10px;
   padding: 20px;
   max-width: 400px;
-  margin: 0 auto 100px auto; 
-  margin-top: 30px; 
+  margin-bottom: 100px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-}
-
-
-@media (max-width: 768px) {
-  .container {
-    margin-top: 100px;
-  }
 }
 
 }
@@ -476,33 +468,10 @@ button:hover {
   margin: 0 0 10px 0;
 }
 
-/* Upcomming Appointment section */
 
-  .appointment-box {
-  width: 400px;
-  height: 250px;                
-  margin: 40px auto;
-  padding: 20px;
-  border: 2px solid #0B8FAC;
-  border-radius: 12px;
-  background-color: #e6f7fb;
-  text-align: center;
-  overflow-y: auto;             
-  scrollbar-width: thin;
-}
 
-.appointment-box h2 {
-  color: #0B8FAC;
-  font-size: 28px;
-  margin-bottom: 15px;
-  font-weight: 700;
-  position: sticky;
-  top: 0;
-  background-color: #e6f7fb;
-  padding-bottom: 10px;
-  z-index: 1;
-}
 
+<<<<<<< Updated upstream
 .appointment-box p {
   font-size: 18px;
   color: #333;
@@ -513,3 +482,10 @@ button:hover {
   border-radius: 6px;
   background-color: #ffffff;
 }
+=======
+
+
+
+
+
+>>>>>>> Stashed changes
