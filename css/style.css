@@ -363,13 +363,6 @@ button:hover {
 
 /* Kierons Css */
 
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
-  text-align: center;
-  padding: 60px 20px;
-}
-
 .big-button {
   font-weight: 600;
   font-size: 20px;
