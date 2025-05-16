@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body, html {
   font-family: 'Arial', sans-serif;
   height: 100%;
@@ -21,7 +27,6 @@ body, html {
 
 .logo {
   height: 90px;
-  height: 70px;
 }
 
 /* Hamburger */
@@ -488,8 +493,3 @@ button:hover {
   font-weight: 500;
   margin: 0 0 10px 0;
 }
-
-
-
-
-
