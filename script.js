@@ -89,3 +89,27 @@ $(document).ready(function() {
 
 
 
+
+
+$(document).ready(function() {
+  // Show home by default (you can also do this in HTML/CSS)
+  $('#home').show();
+  
+  // Footer button click handler
+  $('.footer-icon').click(function() {
+    const section = $(this).data('section');
+
+    // Hide all main sections
+    $('#home, #search, #appointments, #profile, #support').hide();
+
+    // Show the clicked section
+    $('#' + section).show();
+
+    // Optionally, add active class on clicked footer icon
+    $('.footer-icon').removeClass('active');
+    $(this).addClass('active');
+  });
+
+  // Optionally, highlight the first footer icon as active on load
+  $('.footer-icon[data-section="home"]').addClass('active');
+});
