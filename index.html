@@ -24,30 +24,40 @@
     <img src="img/logo.png" alt="Logo-HIYA" class="menu-logo" id="closeMenu" />
   </div>
   <ul>
-    <li><a href="#home" class="nav-link">Home</a></li>
-    <li><a href="#search" class="nav-link">Search</a></li>
-    <li><a href="#appointments" class="nav-link">Appointments</a></li>
-    <li><a href="#profile" class="nav-link">Profile</a></li>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#search">Search</a></li>
+    <li><a href="#appointments">Appointments</a></li>
+    <li><a href="#profile">Profile</a></li>
+    <li><a href="#support">Support</a></li>
   </ul>
 </nav>
-<section id="home">
-  <main class="hero">
-    <h1>HIYA - Health in your area</h1>
-    <img src="img/Doctor-shield.png" alt="Illustration" class="fade-in" />
-  </main>
+<section id="home" class="about">
+<main class="hero">
+  <h1>HIYA- Health in your area</h1>
+  <img src="img/Doctor-shield.png" alt="Illustration" class="fade-in" />
+</main>
+
   <h2>WHO ARE WE?</h2>
+
   <img src="img/Doctor-computer.png" alt="Illustration" class="fade-in" />
-  <p>At HIYA, we're changing healthcare access for modern life...</p>
-  <p>Our mission is simple: healthcare that fits your life, not the other way around.</p>
-</section>
+
+  <p>At HIYA, we're changing healthcare access for modern life. We understand that not everyone has the same needs- we are supporting a parent juggling family appointments, a busy professional needing quick and easy bookings, or a student looking for nearby care. 
+  
+  </p>
+  <p>Our mission is simple: healthcare that fits your life, not the other way around.
+
+  </p>
+
 
 </section>
 
 <script src="script.js"></script>
 
 <!-- aleksandras code- search-->
-<section id="search">
+<section id="search" class="search-bar"></section>
+  <main>
     <input type="text" placeholder="SEARCH" class="search-bar" />
+
     <div class="doctor-card">
       <img src="img/doctor1.jpg" alt="Dr Anna Finlaysons" />
       <div class="info">
@@ -96,69 +106,92 @@
     </div>
   </main>
 </section>
+  <footer>
+    <div class="footer-icon"><img src="img/home-button.png" alt="Home"/></div>
+    <div class="footer-icon"><img src="img/search-button.png" alt="Search"/></div>
+    <div class="footer-icon"><img src="img/appointments-button.png" alt="Appointments"/></div>
+    <div class="footer-icon"><img src="img/profile-button.png" alt="Profile"/></div>
+    <div class="footer-icon"><img src="img/support-button.png" alt="Support"/></div>
+  </footer>
 
   <script src="script.js"></script>
 <!--kierons code- appoitments-->
 
-<section id="appointments">
+<section id="appointments" class="appointments-bar">
 
-    <!-- Booking button code-->
+  <!-- Booking button code-->
 
-    <div id="initialView">
-      <button id="bigButton" class="big-button">Click to book an Appointment</button>
-    </div>
-
-    <div id="warningView" class="hidden">
-      <p class="warning-text"> Are you sure you want to book this appointment?</p>
-      <button id="confirmBtn" class="confirm-btn">Confirm</button>
-    </div>
-
-    <div id="confirmedView" class="hidden">
-      <p class="confirmed-text"> Appointment Confirmed!</p>
-      <button id="backBtn" class="back-btn">Back</button>
-    </div>
-
-    <!--Reminder Section-->
-    
-    <div class="reminder-box">
-      <h2>Reminders</h2>
-      <p>Appointment Missed</p>
-      <p>Doctor's appointment at 3 PM</p>
-      <p>Upcoming Appointment June 3rd</p>
-      <p>Dr.Moonie Meeting at 6pm 13th of May</p>
-    </div>
-
-      <!--Upcomming Apointment-->
-    <div class="appointment-box">
-    <h2>Upcoming Appointments</h2>
-    <p> May 18, 10:00 AM</p>
-    <p> May 20, 2:30 PM</p>
-    <p> May 23, 1:00 PM</p>
+  <div id="initialView">
+    <button id="bigButton" class="big-button">Click to book an Appointment</button>
   </div>
 
-  <!-- Appointment History -->
-
-  <div class="image-box">
-    <h2>Appointment History</h2>
-    <div class="image-item">
-      <img src="img/doctor1.jpg" alt="Doctor Anna Finlaysons">
-      <p>Dr Anna Finlaysons, Jan 12</p>
-    </div>
-    <div class="image-item">
-      <img src="img/doctor2.jpg" alt="Doctor Ellen Williams">
-      <p>Dr Ellen Williams, Feb 5</p>
-    </div>
-    <div class="image-item">
-      <img src="img/doctor3.jpg" alt="Doctor Emma Grant">
-      <p>Dr Emma Grant, Mar 22</p>
-    </div>
+  <div id="warningView" class="hidden">
+    <p class="warning-text"> Are you sure you want to book this appointment?</p>
+    <button id="confirmBtn" class="confirm-btn">Confirm</button>
   </div>
+
+  <div id="confirmedView" class="hidden">
+    <p class="confirmed-text"> Appointment Confirmed!</p>
+    <button id="backBtn" class="back-btn">Back</button>
+  </div>
+
+  <!--Reminder Section-->
+  
+  <div class="reminder-box">
+    <h2>Reminders</h2>
+    <p>Appointment Missed</p>
+    <p>Doctor's appointment at 3 PM</p>
+    <p>Upcoming Appointment June 3rd</p>
+    <p>Dr.Moonie Meeting at 6pm 13th of May</p>
+  </div>
+
+    <!--Upcomming Apointment-->
+  <div class="appointment-box">
+  <h2>Upcoming Appointments</h2>
+  <p> May 18, 10:00 AM</p>
+  <p> May 20, 2:30 PM</p>
+  <p> May 23, 1:00 PM</p>
+</div>
+
+<!-- Appointment History -->
+
+<div class="image-box">
+  <h2>Appointment History</h2>
+  <div class="image-item">
+    <img src="img/doctor1.jpg" alt="Doctor Anna Finlaysons">
+    <p>Dr Anna Finlaysons, Jan 12</p>
+  </div>
+  <div class="image-item">
+    <img src="img/doctor2.jpg" alt="Doctor Ellen Williams">
+    <p>Dr Ellen Williams, Feb 5</p>
+  </div>
+  <div class="image-item">
+    <img src="img/doctor3.jpg" alt="Doctor Emma Grant">
+    <p>Dr Emma Grant, Mar 22</p>
+  </div>
+</div>
+
+
+<!---add your codes inside this so it can be linked-->
+
 </section>
+
+
+
+
+
+
+
+
+
+
+
 
 <!-- judes code- profile-->
 
+
    <!-- Profile View -->
-<section id="profile">
+<section id="profile" class="profile-bar"></section>
   <div id="profile-view" class="container">
     <div class="header">
   
