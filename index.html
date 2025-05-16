@@ -32,24 +32,23 @@
   </ul>
 </nav>
 <section id="home" class="about">
-<main class="hero">
-  <h1>HIYA- Health in your area</h1>
-  <img src="img/Doctor-shield.png" alt="Illustration" class="fade-in" />
-</main>
+  <div class="hero">
+    <div class="image-container">
+      <img src="img/Doctor-shield.png" alt="Illustration" class="fade-in" />
+      <h1>HIYA- Health in your area</h1>
+    </div>
+  </div>
 
-  <h2>WHO ARE WE?</h2>
-
-  <img src="img/Doctor-computer.png" alt="Illustration" class="fade-in" />
-
-  <p>At HIYA, we're changing healthcare access for modern life. We understand that not everyone has the same needs- we are supporting a parent juggling family appointments, a busy professional needing quick and easy bookings, or a student looking for nearby care. 
-  
-  </p>
-  <p>Our mission is simple: healthcare that fits your life, not the other way around.
-
-  </p>
-
-
-</section>
+<div class="who-are-we-container">
+  <div class="text-content">
+    <h2>WHO ARE WE?</h2>
+    <p>At HIYA, we're changing healthcare access for modern life. We understand that not everyone has the same needs- we are supporting a parent juggling family appointments, a busy professional needing quick and easy bookings, or a student looking for nearby care.</p>
+    <p>Our mission is simple: healthcare that fits your life, not the other way around.</p>
+  </div>
+  <div class="image-content">
+    <img src="img/Doctor-computer.png" alt="Illustration" class="fade-in" />
+  </div>
+</div>
 
 <script src="script.js"></script>
 
@@ -106,13 +105,15 @@
     </div>
   </main>
 </section>
-  <footer>
-    <div class="footer-icon"><img src="img/home-button.png" alt="Home"/></div>
-    <div class="footer-icon"><img src="img/search-button.png" alt="Search"/></div>
-    <div class="footer-icon"><img src="img/appointments-button.png" alt="Appointments"/></div>
-    <div class="footer-icon"><img src="img/profile-button.png" alt="Profile"/></div>
-    <div class="footer-icon"><img src="img/support-button.png" alt="Support"/></div>
-  </footer>
+
+<footer>
+  <div class="footer-icon" data-section="home"><img src="img/home-button.png" alt="Home"/></div>
+  <div class="footer-icon" data-section="search"><img src="img/search-button.png" alt="Search"/></div>
+  <div class="footer-icon" data-section="appointments"><img src="img/appointments-button.png" alt="Appointments"/></div>
+  <div class="footer-icon" data-section="profile"><img src="img/profile-button.png" alt="Profile"/></div>
+  <div class="footer-icon" data-section="support"><img src="img/support-button.png" alt="Support"/></div>
+</footer>
+
 
   <script src="script.js"></script>
 <!--kierons code- appoitments-->
@@ -144,32 +145,6 @@
     <p>Upcoming Appointment June 3rd</p>
     <p>Dr.Moonie Meeting at 6pm 13th of May</p>
   </div>
-
-    <!--Upcomming Apointment-->
-  <div class="appointment-box">
-  <h2>Upcoming Appointments</h2>
-  <p> May 18, 10:00 AM</p>
-  <p> May 20, 2:30 PM</p>
-  <p> May 23, 1:00 PM</p>
-</div>
-
-<!-- Appointment History -->
-
-<div class="image-box">
-  <h2>Appointment History</h2>
-  <div class="image-item">
-    <img src="" alt="Doctor Anna Finlaysons">
-    <p>Dr Anna Finlaysons, Jan 12</p>
-  </div>
-  <div class="image-item">
-    <img src="" alt="Doctor Ellen Williams">
-    <p>Dr Ellen Williams, Feb 5</p>
-  </div>
-  <div class="image-item">
-    <img src="" alt="Doctor Emma Grant">
-    <p>Dr Emma Grant, Mar 22</p>
-  </div>
-</div>
 
 
 <!---add your codes inside this so it can be linked-->
