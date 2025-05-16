@@ -268,7 +268,7 @@ width: 60px;
 
 
 /* JUDES CSS CODE*/
-/*color: #1E4252;*/
+
 
 
 .bodyDark {
@@ -283,8 +283,16 @@ width: 60px;
   border-radius: 10px;
   padding: 20px;
   max-width: 400px;
-  margin-bottom: 100px;
+  margin: 0 auto 100px auto; 
+  margin-top: 30px; 
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+
+@media (max-width: 768px) {
+  .container {
+    margin-top: 100px;
+  }
 }
 
 }
