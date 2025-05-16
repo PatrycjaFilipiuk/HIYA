@@ -26,7 +26,7 @@ body, html {
 }
 
 .logo {
-  height: 90px;
+  height: 70px;
 }
 
 /* Hamburger */
@@ -85,25 +85,37 @@ body, html {
 }
 
 /* Hero section */
+
+
 .hero {
   height: 75vh;
-  background: url(../img/background_front.jpg) no-repeat center center/cover;
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
   padding: 2rem;
 }
 
-.hero h1 {
-  font-size: 1rem;
-  color: #1E4252;
-  background-color: #94CEDA;
+.image-container {
+  position: relative;
+  display: inline-block; 
 }
 
-.hero h1 span {
-  font-size: 2.2rem;
+.image-container img {
   display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.image-container h1 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  padding: 0.5rem 1rem;
+  color: #1E4252;
+  background-color: rgba(148, 206, 218, 0.7);
+  font-size: 1.5rem;
+  white-space: nowrap;
 }
 
 /* Active menu */
@@ -112,40 +124,49 @@ body, html {
 }
 
 /* Who are we? */
-.about {
-  background-color: #ffffff;
-  color: #1E4252;
-  padding: 2rem 1.5rem;
-  text-align: center;
-  font-family: 'Arial', sans-serif;
+
+.who-are-we-container {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding: 0 1.5rem;
+  text-align: left; 
+  flex-wrap: wrap; 
 }
 
-.about h2 {
-  font-size: 1.5rem;
-  margin-bottom: 1.5rem;
-  margin-top: -150px;
+.who-are-we-container .text-content {
+  flex: 1 1 300px;
+  color: #1E4252;
+}
+
+.who-are-we-container .text-content h2 {
+  margin-top: 0; 
   color: #0B8FAC;
   text-transform: uppercase;
   letter-spacing: 1px;
-}
-.hero img {
-  max-width: 100%;
-  height: auto;
-  margin: 1.5rem 0;
-}
-.about img {
-  max-width: 100%;
-  height: auto;
-  margin: 1.5rem 0;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
-.about p {
+.who-are-we-container .text-content p {
   font-size: 1rem;
   line-height: 1.6;
-  text-align: left;
   margin-bottom: 1rem;
 }
 
+.who-are-we-container .image-content {
+  flex: 1 1 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.who-are-we-container .image-content img {
+  max-width: 100%;
+  height: auto;
+  margin: 1.5rem 0;
+  border-radius: 8px; 
+}
 .fade-in {
   opacity: 0;
   transform: translateY(20px);
@@ -156,6 +177,11 @@ body, html {
   opacity: 1;
   transform: translateY(0);
 }
+
+
+
+
+
 
 /* Responsive */
 @media screen and (min-width: 768px) {
