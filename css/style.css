@@ -522,3 +522,52 @@ button:hover {
   background-color: #ffffff;
 }
 
+.image-box {
+  width: 90%;
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 2px solid #0B8FAC;
+  border-radius: 12px;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+  text-align: center;
+  position: relative;
+}
+
+.image-box h2 {
+  width: 100%;
+  font-size: 26px;
+  font-weight: 700;
+  color: #0B8FAC;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.image-item {
+  flex: 1 1 250px;
+}
+
+.image-item img {
+  width: 100%;
+  max-width: 250px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.image-item p {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #333;
+}
+
+.page-section {
+  display: none;
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin-top: 10px;
+  background-color: #f9f9f9;
+}
