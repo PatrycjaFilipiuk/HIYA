@@ -99,19 +99,22 @@ function toggleMenu() {
 
 // Kierons code
 //Button
-$(document).ready(function() {
-  $('#bigButton').click(function() {
+$(document).ready(function () {
+  $('#bigButton').click(function (e) {
+    e.preventDefault();
     $('#initialView').hide();
     $('#warningView').show();
   });
 
-  $('#confirmBtn').click(function() {
+  $('#confirmBtn').click(function (e) {
+    e.preventDefault();
     $('#warningView').hide();
     $('#confirmedView').show();
   });
 
-  $('#backBtn').click(function() {
-    $('#confirmedView').fadeOut(500, function() {
+  $('#backBtn').click(function (e) {
+    e.preventDefault();
+    $('#confirmedView').fadeOut(500, function () {
       $('#initialView').fadeIn(500);
     });
   });
