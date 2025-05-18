@@ -237,6 +237,7 @@ header {
 .search-bar {
   width: 90%;
   margin: 1rem auto;
+   margin-top: 110px;
   display: block;
   padding: 10px;
   font-size: 1rem;
@@ -245,7 +246,6 @@ header {
 .doctor-card {
   background: white;
   margin: 1rem;
-  margin-top: 150px;
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
