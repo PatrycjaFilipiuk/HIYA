@@ -12,6 +12,7 @@ body, html {
   margin: 0;
 }
 
+
 /* Header */
 .top-nav {
   display: flex;
@@ -243,6 +244,7 @@ header {
 .doctor-card {
   background: white;
   margin: 1rem;
+  margin-top: 150px;
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -309,6 +311,7 @@ width: 60px;
   border-radius: 10px;
   padding: 20px;
   max-width: 400px;
+  margin-top: 200px;
   margin-bottom: 100px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
@@ -393,6 +396,7 @@ button:hover {
   font-weight: 600;
   font-size: 20px;
   padding: 40px 80px;
+  margin-top: 200px;
   background-color: #D9D9D9;
   color: #0B8FAC;
   border: none;
@@ -404,6 +408,7 @@ button:hover {
 
 .big-button:hover {
   background-color: #2980b9;
+  
 }
 
 .hidden {
